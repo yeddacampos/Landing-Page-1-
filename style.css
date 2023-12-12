@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: url(imagens/image-header.jpg);
+    background-size: cover;
+    height: 750px;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+
+a,
+button {
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    font-family: serif;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+button {
+    padding: 18px;
+    background-color: white;
+    color: black;
+    border: none;
+    font-weight: bold;
+    border-radius: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    margin-right: 50px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: transparent;
+    color: white;
+    transform: scale(1.2);
+}
+
+.arrow-container {
+    position: relative;
+}
+
+.line {
+    width: 3px;
+    height: 100px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 280px;
+    left: 50%;
+    margin-left: -1px;
+    cursor: pointer;
+}
+
+.arrow {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #ffffff;
+    /* Alterado para apontar para baixo */
+    position: absolute;
+    top: 380px;
+    left: 50%;
+    margin-left: -20px;
+    cursor: pointer;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    margin-top: 150PX;
+    color: #ffffff;
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.box1, .box2, .box3 {
+    display: flex;
+}
+
+.boxtexto1, .boxtexto2 {
+    width: 50%;
+    margin-top: 20px;
+    padding: 123px;
+}
+
+.titulo1, .titulo2 {
+    font-size: 45px;
+    color: hsl(212, 27%, 19%);
+    font-family: serif;
+    font-weight: 900;
+}
+
+.texto1, .texto2 {
+    font-size: 16px;
+    color: hsl(232, 10%, 55%);
+    margin: 40px 0;
+}
+
+.imgovo, .imgtaca{
+    width: 50%;
+    max-height: 525px;
+}
+
+.rodape1, .rodape2 {
+    font-size: 16px;
+    color: hsl(212, 27%, 19%);
+    font-weight: bold;
+    text-decoration: underline hsl(51, 100%, 49%) 2px;
+}
+
+.cereja {
+    background-image: url(imagens/Cereja.png);
+    background-size: cover;
+    width: 50%;
+    height: 550px;
+}
+
+.laranja {
+    background-image: url(imagens/laranja\ int.png);
+    background-size: cover;
+    width: 50%;
+    height: 550px;
+}
+
+.boxtexto3, .boxtexto4 {
+    width: 80%;
+    margin-top: 300px;
+    margin-left: 10%;
+    padding: 100px;
+}
+
+.titulo3, .titulo4 {
+    margin-left: 30%;
+    font-size: 27px;
+    color: hsl(212, 27%, 19%);
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.texto3, .texto4 {
+    font-size: 17px;
+    color: hsl(167, 40%, 24%);
+    font-weight: 600;
+    text-align: center;
+}
+
+.clientes {
+    display: flex;
+    padding: 50px;
+}
+
+.imgcliente {
+    width: 72px;
+    border-radius: 50%;
+}
+
+.titulocliente {
+    margin: 120px 0 -7px 0;
+    text-align: center;
+    font-size: 20px;
+    color: hsl(232, 10%, 55%);
+    font-family: serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.Thomas, .Jennie, .Emily {
+    text-align: center;
+    transition: 0.3s ease;
+    cursor: default;
+}
+
+.depoimento {
+    font-size: 19px;
+    color: hsl(213, 9%, 39%);
+    font-family: serif;
+    margin: 25px;
+}
+
+.name {
+    font-size: 22px;
+    color: hsl(212, 27%, 19%);
+    font-family: serif;
+    margin: 25px 0 15px 0;
+    font-weight: bold;
+}
+
+.function {
+    font-size: 17px;
+    color: hsl(232, 10%, 70%);
+    font-family: serif;
+}
+
+.Thomas:hover, .Jennie:hover, .Emily:hover {
+    transform: scale(1.1);
+}
+
+.galery {
+    display: flex;
+}
+
+.imggalery {
+    width: 25%;
+    max-height: 390px;
+}
+
+footer {
+    background-color: hsl(168, 66%, 52%);
+}
+
+h3 {
+    color: hsl(150, 5%, 35%);
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.boxlinkfooter, h3, .boximgfooter, .textfooter {
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+    }
+    
+.linksfooter {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: hsl(213, 9%, 46%);
+    transition: 0.9s ease;
+
+}
+
+.imgfooter {
+  width: 18px;
+  margin: 15px 0 0 20px;
+}
+
+.linksfooter:hover{
+    color: #ffffff;
+}
+
+.textfooter {
+    color: hsl(232, 10%, 55%);
+    font-size: 14px;
+}
+
+.rodape {
+    margin-left: 2px;
+    color: hsl(228, 45%, 44%);
+    font-size: 14px;
+}
